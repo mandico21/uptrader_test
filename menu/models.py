@@ -21,7 +21,7 @@ class Menu(models.Model):
 
 
 class SubMenu(models.Model):
-    """Модель навигационного меню"""
+    """Модель подпунктов меню"""
 
     class Meta:
         verbose_name = 'подпункт меню'
