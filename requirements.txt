@@ -1,7 +1,4 @@
-asgiref==3.6.0
+﻿asgiref==3.6.0
 Django==4.1.4
-marshmallow==3.19.0
-packaging==22.0
-python-dotenv==0.21.0
 sqlparse==0.4.3
 tzdata==2022.7
