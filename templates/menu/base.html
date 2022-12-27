@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% load menu %}
+{% block content %}
+    <div class="site">
+        <ul class="menu">
+            {% for mn in menu %}
+                <li class="menu__list">
+                    <a href="{{ mn.get_absolute_url }}">{{ mn.name }}</a>
+                    {% draw_menu mn.name %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock content %}

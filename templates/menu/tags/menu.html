@@ -1,0 +1,10 @@
+<ul class="menu__drop">
+    {% for item in items %}
+        <li><a href="{{ item.get_absolute_url }}"> {{ item.name }}</a>
+        {% if item.children_count %}
+            {% with item.children.all as items %}
+                {% include "menu/tags/menu.html" %}
+            {% endwith %}
+        {% endif %}
+    {% endfor %}
+</ul>
