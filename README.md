@@ -11,7 +11,7 @@ Django 4.1.4
 
 ## *⚙️ Установка проекта*
 1. Клонировать репозиторий 
-``git clone https://github.com/mandico21/git init``
+``git clone https://github.com/mandico21/uptrader_test``
 2. Создать виртуальное окружение ``pythom -m venv venv``, активировать виртуальное окружение
 3. Установить зависимости ``pip install -r requirements.txt``
 4. Обновить миграции ``python manage.py migrate``
